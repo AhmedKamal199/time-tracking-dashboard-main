@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    background-color: hsl(226, 43%, 10%);
+    box-sizing: border-box;
+    color:white;
+}
+.time{
+    height: 100vh;
+}
+.container{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(12,1fr);
+    grid-gap:10px
+}
+.person{
+    grid-row-end:9;
+    grid-column-start: 1;
+    grid-column-end:3;
+    background-color: hsl(235, 46%, 20%);
+}
+
+.up{
+    grid-row-start:5;
+}
+
+
+.person .gen{
+    background-color: hsl(246, 80%, 60%);
+    border-radius:10px;
+    padding: 20px;
+    width:100%;
+}
+.person .gen img{
+    width: 50px;
+    border:1px solid white;
+    border-radius:50%;
+}
+.selector{
+    background-color: hsl(235, 46%, 20%);
+    width: 100%;
+    padding: 20px;
+    border-radius:10px;
+}
+.selector li{
+    text-align: left;
+    cursor: pointer;
+}
+.list-style{
+    list-style: none;
+}
+
+.work{
+    grid-row-end:8;
+    grid-column-start:4;
+    grid-column-end:7;
+}
+
+.card{
+    padding:20px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.more{
+    position:absolute;
+    right: 10%;
+    transform: scale(0.99);
+}
+.top{
+    left: 0%;
+    top:0%;
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    border-radius: 10px 10px 3px 3px;
+}
+.pos{
+    position: absolute;
+    right: 0%;
+    top:-18%;
+    transform: scale(0.4);
+}
+.or{
+    background-color: hsl(15, 100%, 70%);
+}
+
+
+.bg-darkblue{
+   background-color:  hsl(235, 46%, 20%);
+}
+
+.play{
+    grid-row-end:8;
+    grid-column-start: 7;
+    grid-column-end:10 ;
+}
+
+.previous-t{
+    margin-top: -15px;
+}
+
+.bl{
+    background-color:hsl(195, 74%, 62%);
+}
+
+.study{
+    grid-row-end:8;
+    grid-column-start: 10;
+    grid-column-end:14;
+    
+}
+
+.red-play{
+    background-color:hsl(348, 100%, 68%)
+}
+
+.down{
+    grid-column-start: 8;
+}
